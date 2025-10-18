@@ -1,0 +1,216 @@
+
+/* ==================== MOBILE RESPONSIVE (390px) ==================== */
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 20px;
+    }
+
+    /* Header */
+    .header-container {
+        position: absolute;
+        top: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+        z-index: 10;
+        padding: 0;
+    }
+
+    .header-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        width: 100%;
+    }
+
+    .logo {
+        gap: 6px;
+        margin-bottom: 0;
+        width: auto;
+        height: auto;
+    }
+
+    .navbar .nav-menu {
+        gap: 24px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navbar a {
+        font-size: 13px;
+    }
+
+    /* Social Links */
+    .social-links {
+        display: none;
+    }
+
+    /* Hero */
+    .hero {
+        max-height: 746px;
+    }
+
+    .hero-back {
+        max-height: 698px;
+        padding: 0 20px;
+        height: 100%;
+    }
+
+    .hero-content {
+        margin-top: 50%;
+        margin-bottom: 50%;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+        margin-bottom: 24px;
+        line-height: 1.3;
+    }
+
+    .hero-content .btn-primary {
+        padding: 10px 24px;
+        font-size: 14px;
+    }
+
+    /* Sections */
+    .section-wrapper {
+        padding: 0;
+    }
+
+    .learnMore,
+    .features {
+        height: auto;
+        min-height: auto;
+        padding: 0;
+    }
+
+    .customer {
+        height: auto;
+        min-height: auto;
+        padding: 48px 20px;
+    }
+
+    /* Features Container */
+    .features-container {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 96px;
+        margin: 0 auto;
+        padding: 48px 48px 100px 48px;
+    }
+
+    .features .features-container {
+        display: flex;
+        flex-direction: column;
+        gap: 96px;
+        margin: 0 auto;
+        padding: 48px 48px 100px 48px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /* Features Image */
+    .features-image {
+        width: 100%;
+        height: 485px;
+    }
+
+    /* Testimonials */
+    .testimonials-container {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .testimonial-quote h2 {
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 68px;
+        padding-top: 96px;
+    }
+
+    .testimonial-author {
+        gap: 12px;
+        padding-bottom: 96px;
+    }
+
+    .author-avatar {
+        width: 56px;
+        height: 56px;
+    }
+
+    .author-info h3 {
+        font-size: 15px;
+    }
+
+    .author-info p {
+        font-size: 14px;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 16px 48px 32px 48px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 48px;
+        padding-bottom: 48px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-brand {
+        grid-column: 1 / -1;
+        order: 1;
+    }
+
+    .footer-company {
+        order: 3;
+    }
+
+    .footer-support {
+        order: 4;
+    }
+
+    .footer-section {
+        width: 100%;
+    }
+
+    .footer-logo {
+        gap: 6px;
+    }
+
+    .footer use {
+        max-width: 21px;
+        max-height: 21px;
+    }
+
+    .footer-newsletter {
+        grid-column: 1 / -1;
+        order: 2;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .newsletter-input {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+
+    .newsletter-btn {
+        padding: 8px 16px;
+        font-size: 13px;
+    }
+}
